@@ -33,8 +33,15 @@ class Pet {
     return padrone._ownerName === this._ownerName;
   }
 }
-const arrayPet = document.createElement("array");
 const pet1 = new Pet("billy", "marco", " cane", "rotweiler");
 const pet2 = new Pet("rosa", "paolo", " gatto", "persiano");
 const pet3 = new Pet("mila", "giulia", " cane", "pitbull");
 const pet4 = new Pet("max", "marco", " coniglio", "coniglio rex");
+console.log(pet4.padroneUgu(pet1));
+const arrayPet = [];
+const form = document.createElement("form");
+const ul = document.createElement("ul");
+form.onsubmit = function (event) {
+  event.preventDefault();
+  for (let i = 0; i < array.length; i++) {}
+};
